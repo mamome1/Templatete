@@ -5,9 +5,15 @@
         <link rel="stylesheet" a href="lib/css/bootstrap.min.css"/>
         <script src="lib/js/bootstrap.min.js"></script>
         <script src="lib/js/jquery-1.12.4.js"></script>
+        <script src="lib/jquery/js/jquery-ui.js"></script>
         <script type="text/javascript">
           $(function () {
             $('#datetimepicker').datetimepicker();
+            $('#alert').alert();
+            $( "#opener").button();
+            $( "#opener" ).on( "click", function() {
+                $( "#alert" ).dialog( "open" );
+            });
           });
         </script>
 	  </head>
@@ -49,5 +55,6 @@
                   </div>
               </div>
           </div>
+      </div>
     </body>
 </html>
