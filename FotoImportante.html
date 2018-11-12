@@ -3,12 +3,51 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no"/>
 		<title> M7- JQuery </title>
         <link rel="stylesheet" a href="lib/css/bootstrap.min.css"/>
-	</head>
-    <body>
-        <div>
-            
-        </div>
         <script src="lib/js/bootstrap.min.js"></script>
         <script src="lib/js/jquery-1.12.4.js"></script>
+        <script type="text/javascript">
+          $(function () {
+            $('#datetimepicker').datetimepicker();
+          });
+        </script>
+	  </head>
+    <body>
+      <div class="alert alert-primary" role="alert">
+        This is a primary alert—check it out!
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        This is a secondary alert—check it out!
+      </div>
+      <div class="alert alert-success" role="alert">
+        This is a success alert—check it out!
+      </div>
+      <div class="alert alert-danger" role="alert">
+        This is a danger alert—check it out!
+      </div>
+      <div class="alert alert-warning" role="alert">
+        This is a warning alert—check it out!
+      </div>
+      <div class="alert alert-info" role="alert">
+        This is a info alert—check it out!
+      </div>
+      <div class="alert alert-light" role="alert">
+        This is a light alert—check it out!
+      </div>
+      <div class="alert alert-dark" role="alert">
+        This is a dark alert—check it out!
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class='col-sm-6'>
+                  <div class="form-group">
+                      <div class='input-group date' id='datetimepicker'>
+                          <input type='text' class="form-control" />
+                          <span class="input-group-addon">
+                              <span class="glyphicon glyphicon-calendar"></span>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
     </body>
 </html>
