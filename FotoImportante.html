@@ -15,22 +15,22 @@
             $('#datepicker').datepicker({
                 uiLibrary: 'bootstrap4'
             });
-            
+
             $('.btn').button();
-              
+
             $(function () {
                 $('[data-toggle="popover"]').popover()
             });
-              
+
             $('.alert').alert()
 
-              
- 
+
+
             });
-            
-            
+
+
             $("#btn1").click(function(){
-                  $("#alert1").css('display:block') 
+                  $("#alert1").css('display:block')
             })    
         </script>
 	  </head>
@@ -65,7 +65,7 @@
 
         </div>
       </nav>
-        
+
       <div class="alert alert-primary" role="alert" id="alert1" style="display:none">
         This is a primary alert—check it out!
       </div>
@@ -90,7 +90,7 @@
       <div class="alert alert-dark" role="alert">
         This is a dark alert—check it out!
       </div>
-        
+
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
             <strong>Holy guacamole!</strong> You should check in on some of those fields below.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -98,28 +98,28 @@
             </button>
         </div>
         <input id="datepicker" width="276" /><br/>
-        
+
         <button type="button" class="btn btn-primary" data-toggle="popover" data-placement="top" title="Primary Button" data-content="I'm the primary button">Primary PULSE ME</button>
-        
+
         <button type="button" class="btn btn-outline-secondary" data-toggle="popover" data-placement="bottom" title="Secondary Button" data-content="I'm the secondary button">Secondary Outline PULSE ME</button>
-        
+
         <button type="button" class="btn btn-info" data-toggle="popover" data-placement="left" title="Info Button" data-content="I'm the info button">Info PULSE ME</button>
-        
+
         <button type="button" class="btn btn-outline-success" data-toggle="popover" data-placement="right" title="Success Button" data-content="I'm the success button">Success Outline PULSE ME</button>
-        
+
         <button type="button" class="btn btn-warning" data-toggle="collapse" href="#collapseExample">Warning PULSE ME</button><br/><br/>
-        
+
         <button type="button" class="btn btn-outline-danger" id="btn1">Danger Outline PULSE ME</button>
-        
+
         <button type="button" class="btn btn-link">Link PULSE ME</button><br/><br/>
         <p><button type="button" class="btn btn-lg btn-primary" disabled="disabled">Disabled</button></p>
-        
+
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
             </div>
         </div>
-        
+
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
                 <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
@@ -131,7 +131,12 @@
                 <input type="radio" name="options" id="option3" autocomplete="off"> Radio
             </label>
         </div>
-        
-        
+
+        <footer class="footer">
+          <div class="container">
+            <span class="text-muted">Lorem ipsum dolor sit plas.</span>
+          </div>
+        </footer>
+
     </body>
 </html>
