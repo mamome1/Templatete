@@ -20,14 +20,18 @@
 
             $(function () {
                 $('[data-toggle="popover"]').popover()
-            })
+            });
 
-            $('.btn btn-outline-danger').click(function(){
-
-            })
+            $('.alert').alert()
 
 
-          });
+
+            });
+
+
+            $("#btn1").click(function(){
+                  $("#alert1").css('display:block')
+            })    
         </script>
 	  </head>
     <body>
@@ -61,7 +65,8 @@
 
         </div>
       </nav>
-      <div class="alert alert-primary" role="alert">
+
+      <div class="alert alert-primary" role="alert" id="alert1" style="display:none">
         This is a primary alert—check it out!
       </div>
       <div class="alert alert-secondary" role="alert">
@@ -104,7 +109,7 @@
 
         <button type="button" class="btn btn-warning" data-toggle="collapse" href="#collapseExample">Warning PULSE ME</button><br/><br/>
 
-        <button type="button" class="btn btn-outline-danger">Danger Outline PULSE ME</button>
+        <button type="button" class="btn btn-outline-danger" id="btn1">Danger Outline PULSE ME</button>
 
         <button type="button" class="btn btn-link">Link PULSE ME</button><br/><br/>
         <p><button type="button" class="btn btn-lg btn-primary" disabled="disabled">Disabled</button></p>
