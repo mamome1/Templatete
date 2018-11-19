@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="lib/js/jquery-1.12.4.js"></script>
+  <script src="lib/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" a href="lib/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" a href="lib/css/sticky_footer.css" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Lorem tete</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar navbar-collapse-xl" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Index.html"><i class="fa fa-home"></i> Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">Formularios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="FotoImportante.html">Utilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Imagenes.html">Imagenes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="PlantillaCompleta.html">Plantilla</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Consigue premium</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <style media="screen">
+    img {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .testimgs {
+      margin-top: 3%;
+      text-align: center;
+    }
+  </style>
+  <div class="testimgs">
+    <h1>Imagenes</h1>
+    <h3>Imagen bordes redondos</h3>
+    <img class="rounded mx-auto d-block" src="./lib/imgs/marge.jpg" alt="Chania" style="max-width:500px;max-height:500px">
+    <h3>Imagen circular</h3>
+    <img class="rounded-circle mx-auto d-block" src="./lib/imgs/cat.jpg" alt="Chania" style="max-width:500px;max-height:500px">
+    <h3>Imagen para thumbnails</h3>
+    <img class="img-thumbnail mx-auto d-block" src="./lib/imgs/jerry.jpg" alt="Chania" style="max-width:500px;max-height:500px">
+    <h3>Carousel de imagenes con título</h3>
+  </div>
+
+  <div id="demo" class="carousel slide" data-ride="carousel" style="width:50%;height:50%;margin-right:auto;margin-left:auto">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./lib/imgs/yaesta1.jpg" alt="Jerry">
+        <div class="carousel-caption">
+          <h3>Astronauta</h3>
+          <p>Mira el astronauta como se toma la birrica</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./lib/imgs/yaesta2.jpg" alt="3">
+        <div class="carousel-caption">
+          <h3>El puente</h3>
+          <p>Para que pase la gente</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./lib/imgs/yaesta3.jpg" alt="4">
+        <div class="carousel-caption">
+          <h3>El barco que vuela</h3>
+          <p>Ademas tiene pinchos y cosas.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Lorem ipsum dolor sit plas.</span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
